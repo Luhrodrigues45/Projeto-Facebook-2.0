@@ -1,0 +1,151 @@
+body{ 
+    background-color: #DCDCDC;
+    min-width: 400px;
+    max-height: auto;
+}
+
+/* width: largura | Heigth: altura */
+
+
+/* ------------------------- Corpo */
+
+.container{
+	margin: 100px;
+	margin-top: 55px;
+	margin-bottom: 50px;
+	text-align: center;
+	width: 1140px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 7px 5px rgba(0,0,0,0.16); 
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+
+/* ------------------------- Campo de e-mail, senha e botão de logar */
+
+form input[type=text],
+form input[type=password]{
+	background: #C6E2FF;
+    border-radius: 7px;
+    border: 0;
+    /*border-color: #1877F2;*/
+    width: 295px;
+    height: 40px;
+    display: block;
+    padding-left: 10px;
+    margin: 15px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+} 
+
+form input[type=submit]{
+	background-color: #1877F2;
+	border-radius: 7px;
+	border-color: #1877F2;
+    border: 0;
+	width: 309px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px auto;
+}
+
+.form{
+    margin-right: 110px;
+}
+
+/* -------------- Trocar as cores dentros dos box de usuário e senha */
+
+input::placeholder{
+    color: #696969;
+    font-weight: 700;
+}
+
+/* --------------- Hover para o botão */
+
+form input[type=submit]:hover{
+    color: white;
+    background-color: #00CD66;
+    border: 0;
+    -webkit-box-shadow: 5px 5px 7px 5px rgba(0,0,0,0.20); 
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20);
+}
+
+/* --------------- Para remover as bordas dos boxs de e-mail, senha e entrar */
+
+form input[type=text]:focus{
+outline: 0;
+}
+
+form input[type=password]:focus{
+outline: 0;
+}
+
+form input[type=submit]:focus{
+outline: 0;
+}
+
+/* --------------- Estilização das palavras que contém link */
+
+a:hover{
+color: #1E90FF;
+}
+
+.link{
+    font-family: 'segoe', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.senha{ 
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ------------------------- Abaixo da frases clicaveis de: Crie uma nova conta ou página */
+
+.span{
+    font-weight: 500;
+}
+
+/* ------------------------- Logo facebook */
+
+form img{
+    width: 50%;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* ------------------------- H1 e H2 */
+
+.textos{
+    font-family: 'roboto', sans-serif;
+    color: #1877F2; 
+    margin: 55px;
+    padding-right: 80px;
+    text-align: left;
+    padding-top: 97px;
+}
+
+.h1{
+    font-size: 30px;
+}
+
+.h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+} 
+
+.h1, h2{
+    margin-top: 55px;
+} 
